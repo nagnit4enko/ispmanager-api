@@ -1,0 +1,21 @@
+{
+    "name": "nagnit4enko/ispmanager-api",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "nagnit4enko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IspApi\\": "src/"
+        }
+    }
+}
